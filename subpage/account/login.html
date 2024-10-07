@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="authors" content="D'Costa and Konev" />
+		<meta name="description" content="The most known and stereotypical Indo-Russian Smart Home Brand" />
+		<link rel="icon" type="image/x-icon" href="../images/favicon.jpeg" />
+
+		<title>Vodka &amp; Chai Technologies Inc.</title>
+
+		<link rel="stylesheet" href="../../styles.css" />
+		<script src="script.js" defer></script>
+
+		<style>
+			#main-login {
+				width: fit-content;
+				height: fit-content;
+				position: absolute;
+				margin-top: 10vh;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#username,
+			#password {
+				height: 50px;
+				width: 200px;
+				border: 3px solid blue;
+				border-radius: 10px;
+				margin: 10px;
+			}
+
+			#button-a {
+				height: 50px;
+				width: 200px;
+				background-color: blue;
+				color: white;
+				border-radius: 10px;
+				margin: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- The Navigation Bar -->
+		<div id="navbar">
+			<a href="../../index.html" class="nav-link">Home</a>
+			<a href="../../index.html" class="nav-link">Features</a>
+			<a href="../contact.html" class="nav-link">Contact</a>
+			<div class="dropdown">
+				<div class="nav-link">Account</div>
+				<div class="dropdown-content">
+					<a href="login.html">Login</a>
+					<a href="login.html">Sign Up</a>
+				</div>
+			</div>
+		</div>
+		<div id="main-login">
+			<h1>Login Here</h1>
+			<input type="text" name="text" id="username" placeholder="Username or Email" /><br />
+			<input type="password" name="text" id="password" placeholder="password" /><br />
+			<button id="button-a" type="button" onclick="buttonClick()">Click Me!</button>
+		</div>
+	</body>
+</html>
