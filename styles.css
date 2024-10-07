@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#social {
+	z-index: 1;
+	position: absolute;
+	height: 1vh;
+	width: 100%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#social img {
+	height: 40px;
+	margin: 5px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#navbar {
+	position: fixed;
+	z-index: 2;
+	top: 10px;
+	width: 95%;
+	height: 7vh;
+	background-color: black;
+	margin: 0 2.5% 0 2.5%;
+	border-radius: 10px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.nav-link {
+	text-decoration: none;
+	font-size: 2.5em;
+	color: white;
+	font-family: "Protest Guerrilla", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0 20px 0 20px;
+	border-right: 3px dotted white;
+}
+
+.nav-link:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+#banner {
+	position: relative;
+	height: 95vh;
+}
+
+#banner-IMG {
+	aspect-ratio: 16/9;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	opacity: 0.7;
+}
+
+#favicon {
+	height: 1.5em;
+}
+
+#title {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+	
+	font-family: "Anton", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: black;
+	font-size: 4em;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	z-index: 100;
+}
+
+.dropdown:hover > .dropdown-content {
+	display: block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 200px;
+}
+
+.dropdown-content a {
+	font-size: 1.5em;
+	display: block;
+	
+	font-family: "Protest Guerrilla", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0 20px 0 20px;
+	color: white;
+	background-color: black;
+}
+
+.dropdown-content a:hover {
+	color: black;
+	background-color: white;
+}
+
+#main-products {
+	height: 100vh;
+	background-color: teal;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.product {
+	background-color: grey;
+	width: 45%;
+	height: 90%;
+	border-radius: 1.5em;
+}
+
+.product img {
+	width: 80%;
+	height: 50vh;
+	border-radius: 10px;
+	margin: 10px 10%;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	font-size: 3em
+}
+
+.product li {
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+footer {
+	height: 7vh;
+	font-size: 2em;
+	background-color: darkkhaki;
+}
