@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap");
 
 * {
 	padding: 0;
@@ -13,7 +15,7 @@
 	position: absolute;
 	height: 1vh;
 	width: 100%;
-	
+
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
@@ -35,7 +37,7 @@
 	background-color: black;
 	margin: 0 2.5% 0 2.5%;
 	border-radius: 10px;
-	
+
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -60,7 +62,7 @@
 
 #banner {
 	position: relative;
-	height: 95vh;
+	height: 100vh;
 }
 
 #banner-IMG {
@@ -72,7 +74,7 @@
 	opacity: 0.7;
 }
 
-#favicon {
+.favicon {
 	height: 1.5em;
 }
 
@@ -82,7 +84,7 @@
 	z-index: 1;
 	width: 100%;
 	text-align: center;
-	
+
 	font-family: "Anton", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -109,7 +111,7 @@
 .dropdown-content a {
 	font-size: 1.5em;
 	display: block;
-	
+
 	font-family: "Protest Guerrilla", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -125,8 +127,8 @@
 
 #main-products {
 	height: 100vh;
-	background-color: teal;
-	
+	background-color: #059cb2;
+
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -134,10 +136,12 @@
 }
 
 .product {
-	background-color: grey;
+	background-color: rgba(185, 230, 255, 0.41);
 	width: 45%;
 	height: 90%;
 	border-radius: 1.5em;
+	border: 2px dotted teal;
+	box-shadow: 10px 5px rgba(0, 0, 0, 0.28);
 }
 
 .product img {
@@ -150,17 +154,29 @@
 h2 {
 	width: 100%;
 	text-align: center;
-	font-size: 3em
+	font-size: 3em;
+	font-family: "Pridi", serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 .product li {
 	font-size: 1.2em;
-	margin-top: 10px;
+	margin-top: 7px;
 	margin-left: 25px;
+	font-family: "Protest Strike", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 footer {
-	height: 7vh;
-	font-size: 2em;
-	background-color: darkkhaki;
+	height: 15vh;
+	width: 100%;
+	text-align: center;
+	font-size: 3em;
+	font-family: "Pridi", serif;
+	font-weight: 700;
+	font-style: normal;
+	background-color: #017b83;
+	border-top: 3px dashed black;
 }
