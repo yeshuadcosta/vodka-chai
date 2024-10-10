@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+input {
+    border: 0.5px dashed black;
+    height: 40px;
+    width: 90%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#message {
+    border: 3px solid black;
+    border-radius: 11px;
+    height: 21vh;
+    width: 90%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    border: 5px solid black;
+    border-radius: 9px;
+    height: 60px;
+    width: 90%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#main {
+    width: 25%;
+    margin: 70px auto;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+}

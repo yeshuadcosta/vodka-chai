@@ -34,5 +34,12 @@ p {
 
 #main {
     width: 50%;
-    margin: 50px auto;
+    margin: 80px auto;
+}
+
+#main img {
+    height: 60vh;
+    width: 70%;
+    margin: 0 15% 0 15%;
+    border-radius: 10px;
 }
