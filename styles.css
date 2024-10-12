@@ -33,7 +33,7 @@
 	z-index: 2;
 	top: 10px;
 	width: 95%;
-	height: 5vh;
+	height: fit-content;
 	background-color: black;
 	margin: 0 2.5% 0 2.5%;
 	border-radius: 10px;
@@ -41,6 +41,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	box-shadow: 5px 5px rgba(128, 128, 128, 0.59);
 }
 
 .nav-link {
@@ -51,7 +52,7 @@
 	font-weight: 400;
 	font-style: normal;
 	padding: 0 20px 0 20px;
-	border-right: 3px dotted white;
+	border-right: 2px solid white;
 }
 
 .nav-link:hover {
