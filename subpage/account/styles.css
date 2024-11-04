@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&display=swap");
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://picsum.photos/1080/720");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+}
+
+#title {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main {
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 50px;
+    border: 3px dotted grey;
+    border-radius: 17px;
+    background-color: rgba(34, 187, 167, 0.33);
+    box-shadow: 5px 5px rgba(150, 213, 223, 0.16);
+}
+
+input {
+    display: block;
+    margin: 5px;
+    padding: 12px;
+    width: 300px;
+    height: 40px;
+    border: 2px dotted grey;
+    border-radius: 8.1px;
+
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    margin: 17px;
+    width: 255px;
+    height: 40px;
+    text-align: center;
+    border-radius: 100px;
+    background-color: rgba(27, 172, 51, 0.49);
+    box-shadow: 4px 3px #828282;
+    font-size: large;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:hover {
+    box-shadow: 0 0 white;
+}
+
+#redirect {
+    width: 100%;
+    text-align: center;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#indicate {
+    font-size: 1em;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+    display: none;
+    color: beige;
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+    height: fit-content;
+    border-radius: 11.4px;
+    background-color: grey;
+}

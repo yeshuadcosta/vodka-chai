@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Login</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="../../styles.css" />
+        <script src="scripts/login.js" defer></script>
+    </head>
+    <body>
+		<!-- The Navigation Bar -->
+		<div id="navbar">
+			<a href="../../index.html" class="nav-link">Home</a>
+			<div class="dropdown">
+				<div class="nav-link">Features</div>
+				<div class="dropdown-content">
+					<a href="../features/roomba.html">Roomba</a>
+					<a href="../features/turret.html">Turret</a>
+				</div>
+			</div>
+			<a href="../contact/contact.html" class="nav-link">Contact</a>
+			<a href="../about.html" class="nav-link">About</a>
+			<div class="dropdown">
+				<div class="nav-link">Account</div>
+				<div class="dropdown-content">
+					<a href="login.html">Login</a>
+					<a href="signup.html">Sign Up</a>
+				</div>
+			</div>
+
+			<div id="social">
+				<img src="../../images/social/x.png" />
+				<img src="../../images/social/facebook.png" />
+				<img src="../../images/social/instagram.png" />
+				<img src="../../images/social/tiktok.png" />
+			</div>
+		</div>
+
+        <div id="main">
+            <span id="title">LOGIN</span>
+            <input type="email" placeholder="Username or Email" id="username" />
+            <input type="password" placeholder="Password" id="password" />
+            <button onclick="buttonClicked()">LOGIN</button>
+            <div id="indicate"></div>
+            <div id="redirect">
+                Don't have an account?<br />
+                <a href="signup.html"><strong>Signup Instead</strong></a>
+            </div>
+        </div>
+    </body>
+</html>
