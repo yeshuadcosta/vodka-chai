@@ -16,7 +16,7 @@ body {
     background-size: cover;
 }
 
-#title {
+#Title {
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -29,7 +29,7 @@ body {
 #main {
     width: fit-content;
     height: fit-content;
-    margin: 50px auto;
+    margin: 25vh auto;
     padding: 50px;
     border: 3px dotted grey;
     border-radius: 17px;
